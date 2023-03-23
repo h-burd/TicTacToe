@@ -73,10 +73,8 @@ def move(board):
 			boardCopy[x,y] = 2
 			return x,y
 	
-	# unintelligent next move
+	# Make next move
 	x,y = options[0]
-
-	# more intelligent next move
 
 	return x, y
 
